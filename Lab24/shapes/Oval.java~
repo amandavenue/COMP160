@@ -1,0 +1,15 @@
+package shapes;
+import java.awt.*;
+
+/** Oavl.java
+  * Amanda Veldman September 2016
+  * creates circles. extends the shape abstract class */
+
+public class Oval extends Shape{
+  
+  public void display(Graphics g){
+    g.setColor(colour);
+    height = 4 * width;
+    g.fillOval(x, y, width, height);
+  }
+}

@@ -1,0 +1,40 @@
+/** Box.java
+  * Amanda Veldman August 2016
+  * calculate the volume and surface area of a box
+  */
+
+public class Box{
+  private int height;
+  private int width;
+  private int length;     //decliration of data fields
+  
+  //set height mutator method
+  public void setHeight(int h){
+    height = h;
+  }
+  
+  // set width mutator method
+  public void setWidth(int w){
+    width = w;
+  }
+  
+  // set length mutator method
+  public void setLength(int l){
+    length = l;
+  }
+  
+  // accessor method for surface area calc
+  public int getSurfaceArea(){
+    surfacearea = 2(h*w)+2(w*l)+2(l*h);      // surface area formula
+  }
+  
+  // accessor method for volume calc
+  public int getVolume(){
+    volume = h*w*l;     // volume formula
+  }
+  
+  //
+  public String toString(){
+    return "Height is: " + h + ", Length is: " + l + ", Width is: " + w + ", Volume is: " + volume + ", Surface Area is: " + surfacearea
+  }
+}

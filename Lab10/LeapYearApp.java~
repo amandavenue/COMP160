@@ -1,0 +1,36 @@
+/** Leap Year App
+  * Amanda Veldman Aug 2016
+  * Works out if any particular year is a leap year
+  */
+
+public class LeapYearApp{
+  
+  public static void main (String[] args){
+    
+    leapYear(2014);
+    leapyear(2016);
+    leapYear(1990);
+    leapYear(2000);
+    leapYear(1565);
+    
+  }
+  
+  public static void leapYear(int year){
+    if (year >= 1582){
+      if(year/4 = 0){
+        year = true;
+        if (year/100 = 0 && year/400 = 0){
+          year = true;
+        }
+      }
+    }else{
+      System.out.println(year + ": predates the Georgian calendar");
+    }
+    
+    if (year){
+      System.out.println(year + ": is a leap year");
+    }else{
+      System.out.println(year ": is not a leap year");
+    }
+  }
+  

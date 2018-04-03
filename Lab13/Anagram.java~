@@ -1,0 +1,46 @@
+import java.util.Scanner;
+/** Anagram.java
+  * Amanda Veldman August 2016
+  * Works out whether or not one word is an anagram of another (both user entered)
+  */
+
+public class Anagram{
+  
+  Scanner scan = new Scanner(System.in);
+  System.out.println("Enter first phrase: ");
+  String ph1 = scan.nextLine();
+  
+  Scanner scan = new Scanner(System.in);
+  System.out.println("Enter second phrase: ");
+  String ph2 = scan.nextLine();
+  
+  String ph1low = ph1.toLowerCase();
+  String ph2low = ph2.toLowerCase();
+  
+  String letter1 = "";
+  String letter2 = "";
+  
+  for(char alph = 'a'; alph <= 'z'; alph++){
+    for (int i = 1; i < ph1low.length(); i++){
+      if (ph1low.charAt(i) == alph){
+        letter1 += alph;
+      }
+    }
+  }
+  
+  for(char alph = 'a'; alph <= 'z'; alph++){
+    for (int i = 1; i < ph2low.length(); i++){
+      if (ph2low.charAt(i) == alph){
+        letter2 += alph;
+      }
+    }
+  }
+  
+  System.out.println(letter1 + " are the letters in phrase 1");
+  System.out.println(letter2 + " are the letters in phrase 1");
+  if (letter1.equals(letter2)){
+    System.out.println(ph1 + " is an anagram of " + ph2);
+  } else {
+    System.out.println(ph1 + " is not an anagram of " + ph2);
+  }
+}

@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+/** StringBreakdown.java
+  * Amanda Veldman August 2016
+  * takes a user input of a string and counts the number of vowels and consonants in it
+  */
+
+public class StringBreakdown{
+  
+  public static void main(String[] args){
+    
+    int vow = 0, con = 0, index = 0;
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter a sentance: ");
+    String userSent = scan.nextString();
+    
+    while (index < length.userSent()){
+      if (userSent.charAt(index) != " "){
+        if((userSent.charAt(index) == "a") || (userSent.charAt(index) == "e") || (userSent.charAt(index) == "i") || (userSent.charAt(index) == "o") || (userSent.charAt(index) == "u")){
+          vow ++;
+          index ++; 
+        } else {
+          con ++;
+          index ++;
+        }
+      }
+      index ++;
+    }
+  }
+}

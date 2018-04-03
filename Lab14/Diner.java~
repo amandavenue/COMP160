@@ -1,0 +1,12 @@
+import java.swing.*;
+import java.awt.*;
+/** Diner.java
+  * Amanda Veldman September 2016
+  * creates a diner, name, gender and location at the table
+  */
+
+Public class Diner{
+  
+  public static void main (String [] args){
+  }
+}

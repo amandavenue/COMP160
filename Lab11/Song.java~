@@ -1,0 +1,24 @@
+/** Song.java
+  * Amanda Veldman August 2016
+  * 
+  */
+
+public class Song{
+  
+  /** decliration of data fields */
+  private String songLine;
+  
+  /** Constructor method
+    * @param songLine is assigned */
+  public Song(String sLine){
+    songLine = sline;
+  }
+  
+  /** toString method
+    * @return the songLine */
+  public String toString(){
+    return (songLine);
+  }
+  
+  public static void process(){
+    

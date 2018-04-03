@@ -1,0 +1,13 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+/** ShapePanel.java
+  * Amanda Veldman September 2016
+  * what it does */
+
+public class ShapePanel extends JPaneL{
+  Shape [] shapes = [20];
+}
+  
+  

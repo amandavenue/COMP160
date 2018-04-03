@@ -1,0 +1,7 @@
+/** TablePanel.java
+  * Amanda Veldman September 2016
+  * 
+  */
+
+public class TablePanel extends JPanel{
+}

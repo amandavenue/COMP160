@@ -1,0 +1,34 @@
+/** Customer.java
+  * Amanda Veldman August 2016
+  * 
+  */
+
+public class Customer{
+  private String name;
+  private boolean child;
+  private boolean student;
+  
+  public Customer(String nameIN, int age, boolean studentIN){
+    n = nameIN;
+    a = age;
+    s = studentIn;
+  }
+  
+  public String getName(){
+    name = n;
+  }
+  
+  public boolean isChild(){
+    if (5 <= a <= 16){
+      child = true;
+    }
+  }
+  
+  public boolean isStudent(){
+    if (s == true){
+      student = true;
+    }
+  }
+  
+  
+  

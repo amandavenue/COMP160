@@ -1,0 +1,17 @@
+import java.swt.*;
+import javax.swing.*;
+import java.util.Random;
+/** Shape.java
+  * Amanda Veldman September 2016
+  * what it does */
+
+public class Shape{
+  
+  private int x;
+  private int y;
+  private int height;
+  private Color colour;
+  
+  public int randomRange(int lo, int hi){
+  }
+}

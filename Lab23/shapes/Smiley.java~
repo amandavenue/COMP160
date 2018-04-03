@@ -1,0 +1,19 @@
+package shapes;
+import java.awt.*;
+import java.util.Random;
+
+/** Smiley.java
+  * Amanda Veldman September 2016
+  * creates smileys. extends the shape abstract class */
+
+public class Smiley extends Shape{
+  
+  public Smiley(){
+    height, width = 30;
+  }
+  
+  public void display(Graphics g){
+    g.setColor(colour);
+    g.fillOval(x, y, width, height);
+  }
+}
